@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+    <script type="text/javascript" src="js/bootstrap.js" ></script>
+</head>
+<body>
+    <div class="container">
+        <div class="h3 page-header">普通样式button</div>
+        <div>
+            <input type="button" value="input button">
+            <a href="javascript:void(0)">标签button</a>
+            <input type="submit" value="submit button">
+            <input type="reset" value="reset button">
+            <button type="button">button</button>
+        </div>
+        <div class="h3 page-header">BootStrap下button</div>
+        <div>
+            <input type="button" value="btn-block" class="btn btn-block">
+            <a href="javascript:void(0)" class="btn  btn-info">btn-info</a>
+            <input type="submit" value="btn-default button" class="btn btn-default btn-sm">
+            <input type="reset" value="btn-danger button" class="btn-danger btn-lg">
+            <button type="button" class="btn btn-success">btn-success</button>
+            <button type="button" class="btn btn-group">btn-g</button>
+            <button type="button" class="btn btn-primary btn-link">btn-primary</button>
+        </div>
+        <div class="h3 page-header">输入框的普通样式</div>
+        <div>
+            userName: <input type="text" name="userName" placeholder="please enter your userName">
+            passWord: <input type="text" name="passWord" placeholder="please enter your passWord">
+        </div>
+        <div class="h3 page-header">输入框的BootStrap样式</div>
+        <h2>第一种</h2>
+        <div class="form-group">
+            <label for="userName1">userName:</label>
+            <input id="userName1" type="text" name="userName" placeholder="please enter your userName" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>passWord:</label>
+            <input type="password" name="passWord" placeholder="please enter your passWord" class="form-control">
+        </div>
+        <h2>第二种</h2>
+        <div class="form-inline">
+            <div class="form-group">
+                <label>userName:</label>
+                <input  type="text" name="userName" placeholder="please enter your userName" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>passWord:</label>
+                <input type="password" name="passWord" placeholder="please enter your passWord" class="form-control">
+            </div>
+        </div>
+        <h2>第三种</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <label>userName:</label>
+                <input  type="text" name="userName" placeholder="please enter your userName" class="form-control">
+            </div>
+            <div class="col-md-3">
+                <label>passWord:</label>
+                <input type="password" name="passWord" placeholder="please enter your passWord" class="form-control">
+            </div>
+        </div>
+        <h2>第四种</h2>
+        <div class = "form-horizontal">
+            <div class = "form-group">
+                <label class= "col-sm-2 control-label">userName:</label>
+                <div class = "col-sm-5">
+                    <input type = "text" class = "form-control" name="userName" placeholder = "Please input the userName">
+                </div>
+            </div>
+            <div class = "form-group">
+                <label class= "col-sm-2 control-label">password:</label>
+                <div class = "col-sm-5">
+                    <input type = "password" class = "form-control" name="password" placeholder = "Please input the Password">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
